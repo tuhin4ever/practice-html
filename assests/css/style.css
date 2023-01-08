@@ -51,14 +51,6 @@ header {
 
 }
 
-.donate-today p {
-    text-align: center;
-    color: #707070;
-    font-weight: 400;
-    font-size: 42px;
-    line-height: 70px;
-}
-
 /* donate taka  */
 .donate-tk {
     display: flex;
@@ -186,4 +178,137 @@ hr {
     padding: 20px;
     background: #FFF4D6;
     border-radius: 5px;
+}
+
+/* about section */
+.adout {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.about-img img {
+    width: 500px;
+    height: 500px;
+    margin: 121px 121px;
+    border-radius: 5px;
+}
+
+.about-text {
+    font-size: 20px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 55px;
+    width: 433px;
+    padding-bottom: 25px;
+
+}
+
+.about-description {
+    width: 447px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 26px;
+    padding-bottom: 40px;
+    color: #707070;
+}
+
+/* about section two */
+.about-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.about-img-2 img {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.about-title-2 {
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 60px;
+    width: 500px;
+    margin: 25px 79px;
+}
+
+.about-description-2 {
+    width: 447px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 26px;
+    margin: 35px 80px;
+    color: #707070;
+}
+
+.contribute-btn {
+    padding: 0 70px;
+}
+
+.move {
+    width: 809px;
+    height: 200px;
+    background: #FFF4D6;
+    margin-left: 390px;
+}
+
+.back-color {
+    padding: 60px 175px;
+}
+
+#email {
+    width: 273px;
+    height: 44px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    color: #AA9F9F;
+    padding: 10px;
+    border: 0;
+    margin: 9px 6px;
+    padding: 12px 6px;
+}
+
+.btn-warning {
+    width: 157px;
+    height: 67px;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    background: #FF5959;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    margin: 0px -10px;
+    padding-bottom: 6px;
+
+}
+
+/* footer section */
+footer {
+    height: 200px;
+    background: #0B0D17;
+    margin-top: 50px;
+}
+
+.footer-title h3 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-title p {
+    color: #D9DBE1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 10px;
 }
